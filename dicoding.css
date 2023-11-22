@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.container {
+  display: flex;
+  flex-direction: column;
+}
+  
+header {
+  background-color: #fbff00;
+  color: white;
+  padding: 5px;
+}
+  
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+  
+nav li {
+  margin: 15px;
+}
+  
+main {
+  flex: 1;
+  display: flex;
+}
+  
+article {
+  flex: 2;
+  padding: 20px;
+}
+  
+aside {
+  flex: 1;
+  padding: 20px;
+}
+
+img {
+  height: 450px  ;
+}
+  
+footer {
+  background-color: #ddab08;
+  color: white;
+  text-align: center;
+  padding: 13px;
+}

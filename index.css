@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: azure;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+header h1 {
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+nav li {
+    margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: azure;
+}
+
+.home {
+    color: blue;
+}
+
+main {
+    background-image: url(https://images.pexels.com/photos/2330137/pexels-photo-2330137.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    height: 600px;
+    background-repeat: none;
+    background-size: cover;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+    color: azure;
+    font-weight: lighter;
+    padding-top: 150px;
+    margin-left: 70px;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 80px;
+    color: azure;
+    margin-left: 70px;
+}
+
+.grafik  {
+    font-family: 'Rubik', sans-serif;
+    color: azure;
+    margin-left: 70px;
+    letter-spacing: 10px;
+}
+
+
+.resume {
+    display: flex;
+    color: white;
+}
+
+.resume a {
+    background-color: transparent;
+    color: azure;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif ;
+    margin-top: 20px;
+    margin-right: 25px;
+    padding: 5px 20px;
+    border: 1px solid;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.resume {
+    margin-left: 90px;
+}
+
+.resume :hover {
+    background-color: rgb(110, 115, 115);
+    color: bisque;
+    box-shadow: 0 0 10px white;
+    transition: all 0.5s;
+}
+
+i {
+    margin-top: 130px;
+    margin-left: 80px;
+}
+
+.fa-linkedin-in {
+    margin-left: 10px;
+}
+.fa-instagram {
+    margin-left: 10px;
+}
+.fa-whatsapp {
+    margin-left: 10px;
+}
+.fa-bookmark {
+    float: right;
+    margin-right: 40px;
+}
+.fa-crown {
+    margin-top: 10px;
+}
+section {
+    height: 100rem;
+}
+
+.maen {
+    height: 760px;
+    background-image: url(https://images.pexels.com/photos/11232177/pexels-photo-11232177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
