@@ -132,8 +132,39 @@ section {
 }
 
 .maen {
-    height: 760px;
+    height: 670px;
     background-image: url(https://images.pexels.com/photos/11232177/pexels-photo-11232177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
     background-repeat: no-repeat;
     background-size: cover;
+    color: azure;
 }
+
+.text {
+    text-align: center;
+}
+
+hr {
+    width: 25%;
+}
+
+img {
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border: whitesmoke 4px solid;
+}
+
+.paragraf p{
+   text-align: center;
+   padding-left: 50px;
+   font-size: 25px;
+   font-weight: 500;
+   margin-top: 28px;
+}
+
+.paragraf {
+    display: flex;
+    margin-left: 30px;
+}
+
+
