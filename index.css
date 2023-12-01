@@ -14,7 +14,6 @@ header {
     display: flex;
     justify-content: space-between;
     height: 40px;
-    border: azure 1px solid;
     position: fixed;
     width: 100%;
 }
@@ -23,7 +22,7 @@ p {
     font-family: 'Roboto', sans-serif;
     margin-top: 1px;
     font-size: 20px;
-    margin-left: 140px;
+    margin-left: 10px;
 }
 
 header h1 {
